@@ -24,9 +24,9 @@ describe("Surveys", ()=> {
             description:"Description Exemple2"
         });
         
-        const response =await request(app).get("/surveys");
+        const response = await request(app).get("/surveys");
         
-        expect(response.body.lenght).toBe(2);
+        expect(response.body.length).toBe(2);
     });
     
 });
